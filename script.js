@@ -99,12 +99,13 @@ function displayPhotos(page) {
   });
 }
 
-// getNasaPictures();
+getNasaPictures();
 
 function displayFavorites() {
   // show active page
   resultsNav.classList.remove("active");
   favoritesNav.classList.add("active");
+  window.scrollTo({ top: 0, behavior: "instant" });
 
   if (localStorage.getItem("nasaFavorites")) {
     favorites = JSON.parse(localStorage.getItem("nasaFavorites"));

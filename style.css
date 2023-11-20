@@ -68,8 +68,15 @@ body {
   border-bottom: 1px solid white;
 }
 
+button {
+  background-color: #232020;
+  color: white;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+}
+
 .clickable:hover {
-  color: rgb(0, 99, 199);
+  color: rgb(177, 179, 181);
 }
 
 /* Images Container */
